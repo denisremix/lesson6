@@ -1,0 +1,89 @@
+
+@import url('https://fonts.googleapis.com/css?family=Libre+Franklin&display=swap')
+
+root {
+	box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+body {
+	margin:0;
+	background-image: url('./assets/background/Bitmap.png');
+	background-color: #141b23 ;
+	background-repeat: no-repeat;
+	min-height: 100vh;
+	background-position: right -20px top -1px;
+	font-family: 'Libre Franklin', sans-serif ;
+	
+}
+
+.footer-sign {
+	width: 124px;
+	height: 9px;
+	opacity: 0.27;
+	text-shadow: 0 0 4px rgba(0, 0, 0, 0.65);
+	color: #ffffff;
+	font-size: 12px;
+	font-weight: 500;
+	line-height: 14.4px;
+	padding-left: 54px;
+	padding-top: 198px;
+}
+
+.container{
+	padding-top: 65px;
+	padding-left: 55px;
+}
+
+.navigation-menu{
+	padding: 0;
+	margin:0;
+}
+
+.navigation-menu-logo{
+	display: inline;
+	font-size: 17px;
+	color: #b1bbcb;
+	text-shadow: text-shadow: 0 0 4px rgba(0, 0, 0, 0.65);
+	opacity: 0.87;
+}
+.navigation-menu-item {
+	display: inline;
+	margin-right: 6px;
+	line-height: 18px;
+	color: #b1bbcb;
+	text-shadow: text-shadow: 0 0 4px rgba(0, 0, 0, 0.65);
+	opacity: 0.87;
+}
+
+.card {
+	padding-left: 100px;
+	padding-top: 71px;
+	max-width: 467px ;
+	overflow: hidden;
+	color: white;
+}
+
+.content-text{
+	padding-top: 10px;
+	height: 230px;
+	font-size: 13px;
+	font-weight: 500;
+	line-height: 15.6px;
+}
+
+.content-header{
+height: 18px;
+text-shadow: 0 0 4px rgba(0, 0, 0, 0.65);
+font-size: 18px;
+font-weight: 500;
+line-height: 30px;
+}
+
+
+
+
