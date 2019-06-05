@@ -12,12 +12,7 @@ root {
 }
 body {
 	margin:0;
-	background-image: url('./assets/background/Bitmap.png');
-	background-color: #141b23 ;
-	background-repeat: no-repeat;
-	min-height: 100vh;
-	background-position: right -20px top -1px;
-	font-family: 'Libre Franklin', sans-serif ;
+	
 	
 }
 
@@ -37,6 +32,12 @@ body {
 .container{
 	padding-top: 65px;
 	padding-left: 55px;
+	background-image: url('./assets/background/Bitmap.png');
+	background-color: #141b23 ;
+	background-repeat: no-repeat;
+	min-height: 100vh;
+	background-position: right -20px top -1px;
+	font-family: 'Libre Franklin', sans-serif ;
 }
 
 .navigation-menu{
